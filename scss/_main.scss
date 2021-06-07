@@ -1,0 +1,18 @@
+#main {
+  background: $black;
+  color: $white;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+
+  @import 'components/opening';
+  @import 'components/player';
+  @import 'components/logo';
+  @import 'components/nuvela-load';
+  @import 'components/mute';
+  @import 'components/menu-btn';
+  @import 'components/menu';
+  @import 'components/nuvela-cc';
+  @import 'components/controls';
+}

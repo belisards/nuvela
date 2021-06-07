@@ -1,0 +1,26 @@
+{
+  "name": "nuvela",
+  "version": "1.0.0",
+  "description": "Nuvela",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp sass:watch",
+    "build": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grama-cc/nuvela.git"
+  },
+  "author": "Grama",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/grama-cc/nuvela/issues"
+  },
+  "homepage": "https://github.com/grama-cc/nuvela#readme",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  }
+}
